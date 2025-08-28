@@ -45,6 +45,7 @@ class QuranView extends GetView<QuranController> {
               leading: CircleAvatar(
                 child: Text(surah.nomor?.toString() ?? '-'),
               ),
+              
               title: Text(surah.nama ?? ''),
               subtitle: Text(surah.arti ?? ''),
               trailing: Text(surah.type ?? ''),
